@@ -15,7 +15,7 @@ class _FormState extends State<Form> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Text("REGISTER"),
+          const Text("Authenification"),
           TextField(
             decoration: const InputDecoration(
                 hintText: "Enter your name",
