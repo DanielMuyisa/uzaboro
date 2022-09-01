@@ -12,6 +12,18 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.width,
+      decoration: BoxDecoration(color: Colors.orange),
+      child: Column(children: [
+        Container(
+          child: const Text("First container"),
+        ),
+        Container(
+          child: const Text("Second container"),
+        )
+      ]),
+    );
   }
 }
